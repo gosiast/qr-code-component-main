@@ -1,0 +1,39 @@
+/**
+
+primary: #3685FE
+text: #3B4455
+light text #FDFEFD
+background: #D5E1EF
+
+*/
+:root {
+  --color-primary: #3685fe;
+  --color-text: #3b4455;
+  --color-light-text: #fdfefd;
+  --color-background: #d5e1ef;
+  --title-size: 26px;
+  --card-corner: 12px;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  color: var(--color-text);
+  background-color: #fff;
+  width: 240px;
+  padding: 14px;
+  border-radius: var(--card-corner);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card--title {
+  background-color: #fff; /* bc tab to do this    */
+}
